@@ -1,0 +1,11 @@
+Challenge Motiva - Sprint 1 - Front End & Mobile Development
+Grupo MOV.AI - Turma 2TIAPR - FIAP
+
+Integrantes:
+Leonardo Melo - RM 567097
+Luna Oliveira - RM 564215
+Mario Antônio Oliveira - RM 567713 (Scrum Master)
+Vinicius Augusto Silva - RM 566830
+
+Repositório no GitHub:
+https://github.com/meloleonardo-dev/challenge-motiva-movai-frontend-2TIAPR
