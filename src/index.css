@@ -1,0 +1,82 @@
+/* Reset global e paleta do MOV.AI.
+   Asfalto na navegação, concreto no fundo, branco nos blocos de dados.
+   Amarelo de sinalização para atenção e verde de placa para o que está em ordem. */
+:root {
+  font-family: 'Barlow', 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #1d2125;
+  background: #eef0ec;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --asfalto: #23272b;
+  --asfalto-2: #31373d;
+  --asfalto-texto: #c9cfcc;
+  --concreto: #eef0ec;
+  --superficie: #ffffff;
+  --tinta: #1d2125;
+  --apagado: #5e666d;
+  --linha: #dde1dc;
+  --amarelo: #e8a700;
+  --amarelo-claro: #fdf1cc;
+  --amarelo-texto: #7d5300;
+  --verde: #0e6b4e;
+  --verde-claro: #ddefe7;
+  --vermelho: #b3352b;
+  --vermelho-claro: #f8e1de;
+
+  --fonte-numeros: 'Barlow Condensed', 'Barlow', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--concreto);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+a {
+  font: inherit;
+}
+
+h2,
+h3 {
+  color: var(--tinta);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.75rem;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+}
+
+p {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
